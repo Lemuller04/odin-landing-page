@@ -72,10 +72,10 @@ h1 {
     margin-right: auto;
     max-width: 50%;
     gap: 8px;
+    justify-content: space-between;
 }
 
 .main-right {
-    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
