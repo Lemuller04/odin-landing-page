@@ -16,7 +16,7 @@ button {
     border: none;
     color: #E5E7EB;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* HEADER CSS */
@@ -81,4 +81,50 @@ h1 {
     align-items: center;
     margin-left: auto;
     flex: 1;
+}
+
+/* INFO STYLES */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 10%;
+    gap: 64px;
+}
+
+.info > p {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.card > p {
+    max-width: 256px;
+    color: #5f6063;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card > img {
+    border: 5px solid rgb(112, 112, 247);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 216px;
 }
