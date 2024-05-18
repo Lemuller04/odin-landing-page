@@ -71,7 +71,7 @@ h1 {
     flex-direction: column;
     margin-right: auto;
     max-width: 50%;
-    gap: 8px;
+    gap: 16px;
     justify-content: space-between;
 }
 
@@ -146,4 +146,46 @@ h1 {
     font-style: normal;
     margin-left: auto;
     font-weight: 700;
+}
+
+/* FINAL CSS */
+
+.final {
+    display: flex;
+    margin: 124px 15%;
+    background-color: #3882F6;
+    padding: 64px 192px;
+    border-radius: 12px;
+    color: #E5E7EB;
+}
+
+.final-left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 8px;
+}
+
+.final-bigger-p {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.final-button {
+    border: 2px solid #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E5E7EB;
+    margin: 0 8px 0 8px;
 }
