@@ -8,6 +8,17 @@ body {
     font-family: roboto, 'Courier New', Courier, monospace;
 }
 
+button {
+    background-color: #3882F6;
+    padding: 12px 32px;
+    width: fit-content;
+    border-radius: 8px;
+    border: none;
+    color: #E5E7EB;
+    font-weight: 700;
+    font-size: 16px;
+}
+
 /* HEADER CSS */
 
 header {
@@ -37,4 +48,37 @@ header a {
     margin-right: auto;
     font-size: 32px;
     font-weight: 700;
+}
+
+/* MAIN SECTION STYLES */
+
+h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.main {
+    display: flex;
+    padding: 128px 10%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    gap: 32px;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    max-width: 50%;
+    gap: 8px;
+}
+
+.main-right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    flex: 1;
 }
