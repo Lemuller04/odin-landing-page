@@ -128,3 +128,22 @@ h1 {
     flex-direction: column;
     max-width: 216px;
 }
+
+/* QUOTE CSS */
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 124px 20%;
+    font-size: 36PX;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-author {
+    font-style: normal;
+    margin-left: auto;
+    font-weight: 700;
+}
