@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto, 'Courier New', Courier, monospace;
+}
+
+/* HEADER CSS */
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 16px;
+}
+
+header ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10%;
+    align-items: center;
+    gap: 48px;
+}
+
+header ul,
+header a {
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    margin-left: 10%;
+    margin-right: auto;
+    font-size: 32px;
+    font-weight: 700;
+}
