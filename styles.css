@@ -189,3 +189,7 @@ footer a {
     color: #E5E7EB;
     margin: 0 8px 0 8px;
 }
+
+a:hover {
+    text-decoration: underline;
+}
